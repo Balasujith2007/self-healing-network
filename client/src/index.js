@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDom from"react-router-dom/client";
+import ReactDOM from "react-dom/client";
 import App from "./App";
 
-const root=ReactDom.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <React.StictMode>
-        <App/>
-    </React.StictMode>
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
